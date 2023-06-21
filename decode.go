@@ -47,15 +47,15 @@ func printCommentAtLoc(loc string) {
 }
 
 func main() {
-     key := "0x30"							                      // todo: supply the key as an arg
-     addr, err := r2p.Cmd("s") 				                // 's' = return current address
+     key := "0x30"				      // todo: supply the key as an arg
+     addr, err := r2p.Cmd("s") 			      // 's' = return current address
      check(err)
 	 
      decryptStrAtLoc(addr, key)
      writeCommentAtLoc(addr)
      printCommentAtLoc(addr)
 
-     delCmd := fmt.Sprintf("!rm /tmp/rxorb")           // clean up the temp file
+     delCmd := fmt.Sprintf("!rm /tmp/rxorb")          // clean up the temp file
      r2p.Cmd(delCmd)
      if err != nil {
      	 fmt.Println(err)
