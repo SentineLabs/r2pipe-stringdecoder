@@ -6,8 +6,8 @@ Usage:
 	From r2 prompt, eek to address of encoded string or pass strings when calling
       Example 1
       >	#!pipe <path to binary>
-	  Example 2	
-	  > #!pipe <path to binary> @@=`izz~==[2]`
+      Example 2	
+      > #!pipe <path to binary> @@=`izz~==[2]`
 
 */
 
