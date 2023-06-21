@@ -19,7 +19,7 @@ import (
   "github.com/radareorg/r2pipe-go"
 )
 
-var r2p, _ = r2pipe.NewPipe("") 			// Declare r2p as a global so we can use it throughout our functions
+var r2p, _ = r2pipe.NewPipe("") 		      // Declare r2p as a global so we can use it throughout our functions
 
 func check(err error) {
      if err != nil {
