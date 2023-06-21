@@ -3,7 +3,7 @@ Dec is a utility to decode base64 encoded strings with a single byte XOR
 See: https://s1.ai/r2pipe
 
 Usage:
-	From r2 prompt, eek to address of encoded string or pass strings when calling
+      From r2 prompt, seek to address of encoded string or pass strings when calling
       Example 1
       >	#!pipe <path to binary>
       Example 2	
