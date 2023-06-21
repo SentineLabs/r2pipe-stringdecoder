@@ -14,7 +14,6 @@ Usage:
 package main                                            
 
 import (
- 
   "fmt"
   "github.com/radareorg/r2pipe-go"
 )
