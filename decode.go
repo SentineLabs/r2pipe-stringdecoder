@@ -28,7 +28,7 @@ func check(err error) {
 }
 
 func decryptStrAtLoc(loc string, key string) {
-     bytes := fmt.Sprintf("ps @ %s", loc) 		        // 'ps' = return bytes at current address as string  
+     bytes := fmt.Sprintf("ps @ %s", loc) 	      // 'ps' = return bytes at current address as string  
      str, err := r2p.Cmd(bytes)
      check(err)
      decodeCmd := fmt.Sprintf("!rxorb -b %s %s > /tmp/rxorb", key, str)
